@@ -11,7 +11,7 @@ cursor:pointer;
 .node circle{
 stroke:#fff;
 stroke-width:3px;
-fill:rgb(212, 16, 16);
+fill:#4C68B7;
 }
 
 .tooltip {
@@ -21,4 +21,8 @@ fill:rgb(212, 16, 16);
   color: #ffffff;
   visibility: hidden;
   padding: 4px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }

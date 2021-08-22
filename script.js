@@ -48,13 +48,43 @@ d3.json("cases.json", function(json) {
       .data(json.nodes)
       .on("mouseover", function (d) {
         
-        //If the investigation exists
+        //If the investigation exists state that its being investigated
         if(d.underInvestigation) {
-          tooltip.text("age: " + d.age + " sex: " + d.sex + " This case is being investigated");
-        } else {
-          // otherwise dont show it
-          tooltip.text("age: " + d.age + " sex: " + d.sex);
+
+          // if location exists
+          if(d.location){
+            tooltip.html("Age: "+ d.age + "<br>" +
+            "Sex: " + d.sex + "<br>" + 
+            "Date: " + d.date + "<br>" + 
+            "Location: " + d.location + "<br>" + 
+            " This case is being investigated");
+          } else {
+            tooltip.html("Age: "+ d.age + "<br>" +
+            "Sex: " + d.sex + "<br>" + 
+            "Date: " + d.date + "<br>" + 
+            "Locationof transmission is unknown" + "<br>" + 
+            " This case is being investigated");
+          }
+
+        } // if investigation doesnt exist
+        else {
+          // if location exists
+          if(d.location){
+            tooltip.html(
+            "Age: "+ d.age + "<br>" +
+            "Sex: " + d.sex + "<br>" + 
+            "Date: " + d.date + "<br>" + 
+            "Location: " + d.location);
+            } else {
+
+              tooltip.html(
+                "Age: "+ d.age + "<br>" +
+                "Sex: " + d.sex + "<br>" + 
+                "Date: " + d.date + "<br>" + 
+                "Location of transmission is unknown ");
+            }
         }
+        
         return tooltip.style("visibility", "visible");
        })
        .on("mousemove", function () {
