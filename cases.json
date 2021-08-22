@@ -1,0 +1,219 @@
+{
+    "nodes":[
+        {"id": "G1",
+            "sex": "Male",
+            "age": "27",
+            "underInvestigation": true
+            },
+            {"id": "G2",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G3",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G4",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G5",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G6",
+            "sex": "Female",
+            "age": "14"
+            },
+            {"id": "G7",
+            "sex": "Female",
+            "age": "-"
+            },
+            {"id": "G8",
+            "sex": "Male",
+            "age": "20s"
+            },
+            {"id": "G9",
+            "sex": "Male",
+            "age": "20s"
+            },
+            {"id": "G10",
+            "sex": "-",
+            "age": "10s"
+            },
+            {"id": "G11",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G12",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G13",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G14",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G15",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G16",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G17",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G18",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G19",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G20",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G21",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G22",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G23",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G24",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G25",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G26",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G27",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G28",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G29",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G30",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G31",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G32",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G33",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G34",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G35",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G36",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G37",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G38",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G39",
+            "sex": "-",
+            "age": "-"
+            },
+            {"id": "G40",
+            "sex": "-",
+            "age": "-",
+            "underInvestigation": true
+            },
+            {"id": "G41",
+            "sex": "-",
+            "age": "-",
+            "underInvestigation": true
+            },
+            {"id": "G42",
+            "sex": "-",
+            "age": "-",
+            "underInvestigation": true
+            },
+            {"id": "G43",
+            "sex": "-",
+            "age": "-",
+            "underInvestigation": true
+            },
+            {"id": "G44",
+            "sex": "-",
+            "age": "-",
+            "underInvestigation": true
+            },
+            {"id": "G45",
+            "sex": "-",
+            "age": "-",
+            "underInvestigation": true
+            },
+            {"id": "G46",
+            "sex": "-",
+            "age": "-",
+            "underInvestigation": true
+            }
+      ],
+      "links":[
+          {"source":0,"target":2,"weight":2},
+          {"source":0,"target":1,"weight":2},
+          {"source":0,"target":3,"weight":2},
+          {"source":0,"target":4,"weight":2},
+          {"source":0,"target":8,"weight":2},
+          {"source":0,"target":13,"weight":2},
+          {"source":0,"target":14,"weight":2},
+          {"source":0,"target":15,"weight":2},
+          {"source":0,"target":16,"weight":2},
+          {"source":0,"target":17,"weight":2},
+          {"source":5,"target":6,"weight":2},
+          {"source":5,"target":9,"weight":2},
+          {"source":5,"target":11,"weight":2},
+          {"source":5,"target":12,"weight":2},
+          {"source":5,"target":28,"weight":2},
+          {"source":5,"target":29,"weight":2},
+          {"source":5,"target":30,"weight":2},
+          {"source":5,"target":31,"weight":2},
+          {"source":6,"target":19,"weight":2},
+          {"source":6,"target":20,"weight":2},
+          {"source":6,"target":21,"weight":2}
+        ]
+  }

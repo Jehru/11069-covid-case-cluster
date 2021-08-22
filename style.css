@@ -1,0 +1,24 @@
+
+.link {
+  stroke: #aaa;
+}
+
+.node text {
+stroke:#333;
+cursor:pointer;
+}
+
+.node circle{
+stroke:#fff;
+stroke-width:3px;
+fill:rgb(212, 16, 16);
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #00000080;
+  font-weight: bold;
+  color: #ffffff;
+  visibility: hidden;
+  padding: 4px;
+}
