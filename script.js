@@ -65,7 +65,7 @@ d3.json("cases.json", function(json) {
             tooltip.html("Age: "+ d.age + "<br>" +
             "Sex: " + d.sex + "<br>" + 
             "Date: " + d.date + "<br>" + 
-            "Locationof transmission is unknown" + "<br>" + 
+            "Location of transmission is unknown" + "<br>" + 
             " This case is being investigated");
           }
 
