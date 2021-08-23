@@ -1,5 +1,8 @@
 //  http://bl.ocks.org/jose187/4733747
 
+// Inspiration
+//  https://covid.viz.sg/index.html
+
 console.log("Starting");
 
 var width = 960,
