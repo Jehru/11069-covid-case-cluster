@@ -47,6 +47,9 @@ d3.json("cases.json", function(json) {
       .attr("r","7")
       .data(json.nodes)
       .on("mouseover", function (d) {
+
+        d3.select(this).attr("r", 10).style("fill", "#429EA6");
+
         
         //If the investigation exists state that its being investigated
         if(d.underInvestigation) {
