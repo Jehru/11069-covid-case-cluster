@@ -34,12 +34,15 @@ fill:#CC998D;
 }
 
 .tooltip {
+  font-size: 20px;
   position: absolute;
-  background-color: #00000080;
-  font-weight: bold;
+  /* background-color: #00000097; */
+    background-color: #153B50;
+
+  /* font-weight: bold; */
   color: #ffffff;
   visibility: hidden;
-  padding: 15px;
+  padding: 25px;
 }
 
 /* 

@@ -44,11 +44,11 @@ d3.json("cases.json", function(json) {
       .call(force.drag);
 
   node.append("circle")
-      .attr("r","7")
+      .attr("r","10")
       .data(json.nodes)
       .on("mouseover", function (d) {
 
-        d3.select(this).attr("r", 10).style("fill", "#429EA6");
+        d3.select(this).attr("r", 14).style("fill", "#429EA6");
 
         
         //If the investigation exists state that its being investigated
